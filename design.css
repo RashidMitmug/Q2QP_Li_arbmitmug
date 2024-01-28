@@ -28,6 +28,11 @@ nav{
     text-decoration: none;
     color:white;
     padding-left:5vw;
+    transition: 0.2s;
+}
+.button:hover{
+    color:#54ab68;
+    transition: 0.5s;
 }
 .title{
     display: inline-block;
@@ -57,7 +62,7 @@ nav{
     color: #29372C;
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 15vh;
 }
 .proj{
     position: relative;
@@ -194,16 +199,7 @@ footer{
     padding-top: 10vh;
     padding-bottom: 3vh;
 }
-.vnm{
-    width:40vw;
-    margin-left: 10vw;
-    color: #29372C;
-    text-align: center;
-    display: inline-block;
-}
-.vnmd{
-    text-align: justify;
-}
+
 footer p{
     display: inline-block;
 }
@@ -241,26 +237,19 @@ footer p{
 }
 .abtusp3{
     color: #29372C;
-    margin-top: 3vh;
+    margin-top:15vh;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 .abtusp3 p{
-    width: 60vw;
+    width: 40vw;
     margin-bottom:15vh;
 }
 .abtusp3t1{
     display: flex;
     justify-content: center;
     color: #29372C;
-    margin-top:10vh;
-}
-
-.plant{
-    float:right;
-    width:30vw;
-    padding-right:5vw;
 }
 .logo{
     width:2vw;
