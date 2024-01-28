@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    z-index:1;
+}
+body{
+    background-image:linear-gradient(white, #a7bdac)
+  
+}
+/*navigation*/
+nav{
+    background-color: #29372C;
+    color:white;
+    padding:2vh;
+    position: fixed;
+    width:100vw;
+    top:0%;
+    z-index: 2;
+}
+.buttoncontainer{
+    position: relative;
+    left: 15%;
+    display: inline-block;
+}
+.button{
+    text-decoration: none;
+    color:white;
+    padding-left:5vw;
+}
+.title{
+    display: inline-block;
+    float:right;
+    padding-right:5vw;
+}
+/*home page*/
+.banner{
+    height: 100vh;
+    z-index: -1;
+}
+.vidbg{
+    z-index: -1;
+    position:absolute;
+    width: 100%;
+}
+.titlecontainer{
+    z-index: 1;
+    position:relative;
+    left:20vw;
+    top:50vh;
+    width: fit-content;
+    color:#ffffff;
+    size-adjust: large;
+}
+.p1t1{
+    color: #29372C;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.proj{
+    position: relative;
+    left:10vw;
+    top:10vh;
+    width: 30vw;
+    display: inline-block;
+    padding-bottom: 15vh;
+}
+.projref{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    margin-top: 3vh;
+    background-color: #3e6647;
+    border-radius: 5px;
+    width: 40vw;
+    text-align: center;
+    padding: 15px;
+    height:fit-content;
+    opacity: 70%;
+}
+.projref h2{
+    padding-bottom:10px;
+}
+.projrefcon{
+    text-align: justify;
+    
+}
+.boxref:hover{
+    size-adjust: large;
+}
+.forestimg{
+    width:30vw;
+    display: inline-block;
+    float: right;
+    position: relative;
+    right:10vw;
+    top:30vh;
+    padding-bottom: 10vh;
+    
+}
+.homeimg{
+    width:30vw;
+    box-shadow: 5px 5px 5px #000000;
+}
+/*footer*/
+footer{
+    position:fixed;
+    bottom: 0%;
+    width: 100vw;
+    background-color: #29372C;
+    color:white;
+}
+/*what we do*/
+.p2t1{
+    color: #29372C;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    padding: 5vh;
+}
+.bp2t2{
+    background-image: url('contenti/forest2.jpg');
+    height: 50vh;
+    background-size:cover;
+    background-repeat: none;
+}
+.bp2t3{
+    background-image: url('contenti/forest3.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-repeat: none;
+}
+.bp2t4{
+    background-image: url('contenti/forest4.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position-y:50vh ;
+    background-repeat: none;
+    
+}
+.rightproj{
+    color: #29372C;
+    margin-top:5vh;
+    margin-left:5vw;
+    text-align:left;
+}
+.leftproj{
+    float:right;
+    color: #29372C;
+    margin-top:5vh;
+    margin-right:5vw;
+}
+.projtitle{
+    padding-bottom: 2vh;
+}
+.projtitle1{
+    padding-bottom: 2vh;
+}
+.desc{
+    padding-bottom: 5vh;
+    width: 70vw;
+    text-align: justify;
+}
+.desc1{
+    padding-bottom: 15vh;
+    width: 50vw;
+    text-align:justify;
+}
+.abtus{
+    background-color: #29372C;
+    width: fit-content;
+    padding: 15px;
+    border-radius:5px;
+    color:white;
+}
+.abutton:hover{
+    transform: scale(2);
+    transition: .5s;
+}
+.abutton:hover .abtus{
+    background-color: green
+}
+.abutton{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 18vh;
+    transition: 0.5s;
+}
+/*About Us*/
+.p3t1{
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+}
+.vnm{
+    width:40vw;
+    margin-left: 10vw;
+    color: #29372C;
+    text-align: center;
+    display: inline-block;
+}
+.vnmd{
+    text-align: justify;
+}
+footer p{
+    display: inline-block;
+}
+.spritecon{
+    display:inline-block;
+    float: right;
+    padding-right: 5vw;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+.fb{
+    background: url('contenti/sprite.png') no-repeat -91px -166px;
+    width: 50px;
+    height: 50px;
+    display:inline-block;
+    border-radius: 45px;
+    
+}
+.pt{
+    background: url('contenti/sprite.png') no-repeat -271px -166px;
+    width: 50px;
+    height: 50px;
+    display:inline-block;border-radius: 45px;
+}
+.twt{
+    background: url('contenti/sprite.png') no-repeat -451px -166px;
+    width: 50px;
+    height: 50px;border-radius: 45px;
+    display:inline-block;
+}
+footer p{
+    position: relative;
+    left:10vw;
+    top:3vh;
+}
+.abtusp3{
+    color: #29372C;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.abtusp3 p{
+    width: 60vw;
+    margin-bottom:15vh;
+}
+.abtusp3t1{
+    display: flex;
+    justify-content: center;
+    color: #29372C;
+    margin-top:10vh;
+}
+
+.plant{
+    float:right;
+    width:30vw;
+    padding-right:5vw;
+}
+.logo{
+    width:2vw;
+    display: inline-block;
+    float: left;
+}
